@@ -1,0 +1,26 @@
+baseURL: /
+languageCode: en-us
+title: ""
+theme: ["PaperMod"]
+copyright: © 2024 Damian Caruso
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  disableThemeToggle: true
+  profileMode:
+    enabled: true
+    title: "Damián Caruso" # optional default will be site title
+    subtitle: "Software Engineer & Cloud Architect"
+    imageUrl: "https://pbs.twimg.com/profile_images/1756794632347045888/IrJkBPQi_400x400.jpg" # optional
+    imageTitle: "Damian Caruso" # optional
+    imageWidth: 300 # custom size
+    imageHeight: 300 # custom size
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/damiancaruso"
