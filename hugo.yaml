@@ -1,26 +1,40 @@
 baseURL: /
 languageCode: en-us
-title: ""
-theme: ["PaperMod"]
+theme: PaperMod
 copyright: © 2024 Damian Caruso
 
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # necessary for search
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
+  title: Damian Caruso
+  description: "Welcome to my digital playground! I'm Damian, and you've just discovered my slice of the web."
+  defaultTheme: auto # dark, light
   disableThemeToggle: true
+
+  # profile-mode
   profileMode:
     enabled: true
     title: "Damián Caruso" # optional default will be site title
-    subtitle: "Software Engineer & Cloud Architect"
+    subtitle: "Software Engineering Consultant"
     imageUrl: "https://pbs.twimg.com/profile_images/1756794632347045888/IrJkBPQi_400x400.jpg" # optional
     imageTitle: "Damian Caruso" # optional
     imageWidth: 300 # custom size
     imageHeight: 300 # custom size
+    buttons:
+      - name: Contact
+        url: "mailto:hello@damiancaruso.com"
+      - name: Meet
+        url: "https://cal.com/damiancaruso"
 
   socialIcons: # optional
     - name: "linkedin"
       url: "https://www.linkedin.com/in/damiancaruso"
+    - name: "x"
+      url: "https://x.com/dalecaru"
