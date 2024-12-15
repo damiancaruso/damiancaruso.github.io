@@ -38,3 +38,5 @@ params:
       url: "https://www.linkedin.com/in/damiancaruso"
     - name: "x"
       url: "https://x.com/dalecaru"
+    - name: "github"
+      url: "https://github.com/dalecaru"
