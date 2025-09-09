@@ -23,7 +23,7 @@ params:
     enabled: true
     title: "Damián Caruso" # optional default will be site title
     subtitle: "Software Engineering Consultant"
-    imageUrl: "https://pbs.twimg.com/profile_images/1756794632347045888/IrJkBPQi_400x400.jpg" # optional
+    imageUrl: "images/profile.jpg"
     imageTitle: "Damian Caruso" # optional
     imageWidth: 300 # custom size
     imageHeight: 300 # custom size
